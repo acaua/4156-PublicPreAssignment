@@ -46,7 +46,8 @@ We will have a higher passing standard for those wishing to waive the class and 
 
 ## Submission
 You will submit your assignment in a git repository.
-Students enrolled in the class and students on the wait list will receive 
+Students enrolled in the class and students on the wait list will receive an email with your credentials and url or your git repository.
+Waiver students should email the TA for credentials and instructions.
 
 ## Waiver Specific Instructions (Not Class Students)
 Students that have previously taken a software engineering class may be allowed to waive the class.
