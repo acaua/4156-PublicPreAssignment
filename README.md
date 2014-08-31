@@ -1,4 +1,7 @@
-4156-PublicPreAssignment
+COMS W4156 Pre Assignment
 ========================
 
-Public pre-assignment for COMS W4156.
+* `assignment.md` - Instructions for the assignment.
+* `assignment_test.py` - Script to test your project.
+    * Execute using: `./assignment_test.py test_data.csv`
+* `routes` - Java Play routes file that you should use for your project.
