@@ -16,6 +16,7 @@ Your API will need to answer four questions:
 ## Technical Requirements
 * You are required to use implement your API using [Java Play 2.3.1](http://www.playframework.com/).
     * This requires Java 7. If you see the error ` Unsupported major.minor version 51.0` then you are using a version of java tht is too old.
+* You should use the routes file in this repository for your project.
 * To answer question 4 you must record each call to the API.
 You should log this in a database. You may use SQLite or an in memory database such as H2.
 * Your application should handle invalid data such as a community district that does not exist by returning `invalid`.
@@ -23,11 +24,13 @@ You should log this in a database. You may use SQLite or an in memory database s
     * Suggestion: `https://github.com/socrata/soda-java`
 * We suggest that you use the simple socrata [filter queries](http://dev.socrata.com/docs/filtering.html)
     * To find information about community district 3 in Manhattan you can use the following URL: `http://data.cityofnewyork.us/resource/ewtv-wftx\?communitydistrict\=3\&borough\=Manhattan`
-* We will post a python script in the same repository as thi project which will allow you to test your project.
+* The python script in this repository will let you test your project.
+The data included will not be the data we use to test the project.
 Note that this is the script but not the same data that we will use to test your projects.
 This will allow you to easily test your projects.
 * The burough will be `brooklyn`, `manhattan`, `bronx`, `queens`, or `statenisland`
 * You may not predownload any data. Doing so will result in failure.
+* In the event of any error return `0`.
 
 ## Grading
 Students will fall into one of 3 categories: pass, borderline, or fail.
@@ -41,10 +44,17 @@ We will have a higher passing standard for those wishing to waive the class and 
 * 90 > Score >= 80 - Class Borderline
 * 80 > Score - Class Fail
 
+## Submission
+You will submit your assignment in a git repository.
+Students enrolled in the class and students on the wait list will receive 
+
 ## Waiver Specific Instructions (Not Class Students)
 Students that have previously taken a software engineering class may be allowed to waive the class.
 Students wishing to waive the class have two extra deliverables in addition to the programming assignment.
 You must submit unit tests and corresponding test coverage metrics for this assignment, and you must submit structural and behavioral diagrams of your design.
 
 ## Note for Students with Industry Experience
-Students with sufficient documented industrial software engineering experience, but no prior formal software engineering course for the waiver, will be allowed to count COMS W6123 (Programming Environments and Software Tools), offered in Spring 2015, towards the software systems track requirements in lieu of 4156 if they achieve a B+ or higher in 6123.  These students must also complete the waiver version of this preliminary assignment.
+Students with sufficient documented industrial software engineering experience, but no prior formal software engineering course for the waiver, will be allowed to count COMS W6123 (Programming Environments and Software Tools), offered in Spring 2015, towards the software systems track requirements in lieu of 4156 if they achieve a B+ or higher in 6123.
+These students must also complete the waiver version of this preliminary assignment.
+
+
