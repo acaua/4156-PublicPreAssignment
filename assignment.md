@@ -14,7 +14,7 @@ Your API will need to answer four questions:
     * `/total/`
 
 ## Technical Requirements
-* You are required to use implement your API using [Java Play 2.3.1](http://www.playframework.com/).
+* You are required to use implement your API using [Java Play 2.3.4](http://www.playframework.com/).
     * This requires Java 7. If you see the error ` Unsupported major.minor version 51.0` then you are using a version of java tht is too old.
 * You should use the routes file in this repository for your project.
 * To answer question 4 you must record each call to the API.
