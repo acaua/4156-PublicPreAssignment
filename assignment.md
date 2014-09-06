@@ -45,10 +45,8 @@ We will have a higher passing standard for those wishing to waive the class and 
 * 80 > Score - Class Fail
 
 ## Submission
-You will submit your assignment in a git repository.
-When the TAs grade your assignment they will clone your repository and run your application from there.
-Students enrolled in the class and students on the wait list will receive an email with your credentials and url or your git repository.
-Waiver students should email the TA for credentials and instructions.
+In class students will submit the assignment through CourseWorks.
+Waiver students will submit via email to the TA.
 
 ## Waiver Specific Instructions (Not Class Students)
 Students that have previously taken a software engineering class may be allowed to waive the class.
